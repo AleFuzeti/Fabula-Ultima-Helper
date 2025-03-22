@@ -30,7 +30,6 @@ function Content() {
   return (
     <div className="content">
       {/* Exibe a imagem apenas na rota raiz */}
-      {location.pathname === "/" && (
         <div className="image-links">
           <Link to="/equipment">
             <img
@@ -47,7 +46,6 @@ function Content() {
             />
           </Link>
         </div>
-      )}
       <Routes>
         <Route path="/equipment" element={<EquipmentPage />} />
         <Route path="/heroic-skills" element={<HeroicSkillsPage />} />
