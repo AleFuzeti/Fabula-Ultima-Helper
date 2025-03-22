@@ -1,0 +1,176 @@
+/*backgrond body*/
+  body {
+    background-color: rgb(226, 243, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .select {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para a página de Heroic Skills */
+  .heroic-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .description {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .heroic-skill-card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    width: 350px;
+  }
+
+  .heroic-skill-card>span {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .heroic-skill-card>span>h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .heroic-skill-card>span>p {
+    font-size: 11px;
+    color: #707070;
+  }
+
+  .heroic-skill-card>p {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: justify;
+  }
+  
+  .heroic-skill-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 4px;
+  }
+  
+  .heroic-skill-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Filtros */
+  .heroic-skills-filters {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 20px 0;
+    width: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .heroic-skills-filters h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 4px;
+    width: 100%;
+  }
+  
+  .filter-section {
+    flex: 1 1 16%; 
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .heroic-skills-filters .filter-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta o número de colunas automaticamente */
+  }
+
+  .filter-section h3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #444;
+    margin-bottom: 6px;
+    margin-top: 5px;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-option input {
+    margin-right: 8px;
+    transform: scale(1.1);
+  }
+  
+  .filter-option label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .filter-option input:checked + label {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Botões */
+  .expand-button, .clear-button {
+    display: inline-block;
+    margin-top: 5px;
+    background: none;
+    border: none;
+    color: rgb(43, 75, 66);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+  }
+  
+  .expand-button:hover, .clear-button:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .filter-section {
+      flex: 1 1 20%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .filter-section {
+      flex: 1 1 41%; 
+    }
+  }

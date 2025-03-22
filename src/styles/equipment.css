@@ -1,0 +1,185 @@
+.select {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Estilos para a página de Equipamentos */
+.equipment-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.equipment-card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  width: 350px;
+}
+
+.equipment-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+}
+
+.equipment-header span{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.equipment-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: bold;
+  color: #222;
+  margin-top: 5px;
+}
+
+.equipment-book{
+  display: flex;
+  justify-content: space-between;
+}
+
+.equipment-book span {
+  font-size: 11px;
+  color: #707070;
+  margin: -5px 0px 16px 0px;
+  border-bottom: 1px solid #707070;
+}
+
+.equipment-category {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
+
+.equipment-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.equipment-quality {
+  font-size: 13px;
+  margin-top: 5px;
+  color: #222;
+  text-align: justify;
+}
+
+
+/* Filtros */
+.equipment-filters {
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 20px 0;
+  width: auto;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.equipment-filters h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+.filter-section {
+  flex: 1 1 16%; 
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.filter-section h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #444;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.filter-option input {
+  margin-right: 8px;
+  transform: scale(1.1);
+}
+
+.filter-option label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.filter-option input:checked + label {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Botão de Expandir */
+.expand-button, .clear-button {
+  display: inline-block;
+  margin-top: 5px;
+  background: none;
+  border: none;
+  color: rgb(43, 75, 66);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.expand-button:hover, .clear-button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .filter-section {
+    flex: 1 1 20%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-section {
+    flex: 1 1 41%; 
+  }
+}
+
+
+.martialFilled {
+  fill: #b63401;
+  stroke: #000;
+  stroke-width: 25px;
+}

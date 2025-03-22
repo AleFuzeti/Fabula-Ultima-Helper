@@ -1,23 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
+import EquipmentPage from "./components/EquipmentPage";
+import HeroicSkillsPage from "./components/HeroicSkillsPage";
+import "./App.css"; // Importando o arquivo de estilos
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+      <div className="app-container">
+        <nav className="top-nav">
+          <ul>
+            <li>
+              <Link to="/equipment">Equipment</Link>
+            </li>
+            <li>
+              <Link to="/heroic-skills">Heroic Skills</Link>
+            </li>
+          </ul>
+        </nav>
+        <Content />
+      </div>
+    </Router>
+  );
+}
+
+function Content() {
+  const location = useLocation(); // Hook para acessar a rota atual
+
+  return (
+    <div className="content">
+      {/* Exibe a imagem apenas na rota raiz */}
+      {location.pathname === "/" && (
+        <div className="image-links">
+          <Link to="/equipment">
+            <img
+              src="/assets/equipment.jpg"
+              alt="Equipment"
+              style={{ width: "50%", height: "auto" }} // Ajuste de tamanho
+            />
+          </Link>
+          <Link to="/heroic-skills">
+            <img
+              src="/assets/heroic_skills.jpg"
+              alt="Heroic Skills"
+              style={{ width: "50%", height: "auto" }} // Ajuste de tamanho
+            />
+          </Link>
+        </div>
+      )}
+      <Routes>
+        <Route path="/equipment" element={<EquipmentPage />} />
+        <Route path="/heroic-skills" element={<HeroicSkillsPage />} />
+      </Routes>
     </div>
   );
 }
