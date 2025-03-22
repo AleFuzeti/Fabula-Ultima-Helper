@@ -6,7 +6,7 @@ import "./App.css"; // Importando o arquivo de estilos
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Fabula-Ultima-Helper">
       <div className="app-container">
         <nav className="top-nav">
           <ul>
@@ -34,14 +34,14 @@ function Content() {
         <div className="image-links">
           <Link to="/equipment">
             <img
-              src="/assets/equipment.jpg"
+              src={`${process.env.PUBLIC_URL}/assets/equipment.jpg`}
               alt="Equipment"
               style={{ width: "50%", height: "auto" }} // Ajuste de tamanho
             />
           </Link>
           <Link to="/heroic-skills">
             <img
-              src="/assets/heroic_skills.jpg"
+              src={`${process.env.PUBLIC_URL}/assets/heroic_skills.jpg`}
               alt="Heroic Skills"
               style={{ width: "50%", height: "auto" }} // Ajuste de tamanho
             />
