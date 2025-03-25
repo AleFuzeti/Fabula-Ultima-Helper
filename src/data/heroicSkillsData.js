@@ -797,6 +797,7 @@ const heroicSkillsData = [
   description4: "- The newly created Minion is a completely new creature and has full HP, full MP, and no status effects. It retains the original creature's equipment.",
   description5: "- Your Minion takes its own turn during conflicts, and the Game Master must count it as an additional Player Character when designing a conflict. - When you rest, your Minion also gains the full benefits of resting. - If your Minion is reduced to 0 Hit Points, if you are more than 1 travel day away from it, or if you die or fall unconscious, your Minion is immediately destroyed.",
   description6: "- You may also destroy your Minion at any time; if you want to create a new Minion, you must first destroy the current one. - If your Minion is destroyed, your maximum HP and MP scores return to normal.",
+  book: "Fabula Bonus 1",
 },
 {
   name: "Harvester of Sorrow",
@@ -804,11 +805,13 @@ const heroicSkillsData = [
   other: "Acquired both the Drain Spirit and Drain Vigor Spells.",
   description: "When you cast the Drain Spirit or Drain Vigor spells, the amount of Mind Points or Hit Points you recover is equal to the MP or HP loss suffered by the target, respectively (instead of being halved).",
   description2: "Additionally, your Drain Spirit causes the target to lose 【HR + 20】 Mind Points if you are level 20 or higher, or 【HR + 25】 Mind Points if you are level 40 or higher, instead of the normal 【HR + 15】.",
+  book: "Fabula Bonus 1",
 },
 {
   name: "Pulse of the Maggots",
   requirement: ["Necromancer"],
   description: "As long as you have at least 1 Grave Point, you gain Immunity to dark and poison damage, Resistance to physical damage, and Vulnerability to light damage. These Affinities overwrite any other Affinity for those damage types, and cannot be altered in any way as long as you have at least 1 Grave Point.",
+  book: "Fabula Bonus 1",
 },
 
 
@@ -822,6 +825,7 @@ const heroicSkillsData = [
   other: "Acquired the Magic Cards Skill.",
   description: "When you resolve the Double Trouble effect, you may have all of its damage become light or dark (instead of being of a type matching the suits of the resolved cards).",
   description2: "Additionally, as long as there is a joker in your discard pile, all damage dealt by your Blinding Flush, Double Trouble, and Magic Flush effects ignores Immunities and Resistances.",
+  book: "Fabula Bonus 3",
 },
 {
   name: "Card Vanguard",
@@ -830,6 +834,7 @@ const heroicSkillsData = [
   description: "During a conflict, if you have two or fewer vanguard cards in play, you can use an action to choose 1 card from your hand and place it face down as a vanguard card; if you do, draw 1 card from your deck.", 
   description2: "When you suffer damage, if you have one or more vanguard cards in play, you may reveal one of them and place it on top of your discard pile: if you do and that card is a joker or its suit matches the type of the damage you suffered, you instead suffer no damage and regain an equal amount of Mind Points.",
   description3: "At the end of each conflict, if you have one or more vanguard cards in play, shuffle them back into your deck.",
+  book: "Fabula Bonus 3",
 },
 {
   name: "Duel Master",
@@ -837,6 +842,7 @@ const heroicSkillsData = [
   other: "Acquired the Magic Cards Skill.",
   description: "When you resolve the Magic Pair effect, if you attack with a weapon belonging to the arcane or thrown Category, you deal extra damage equal to the common value of the resolved cards and regain an amount of Mind Points equal to twice the common value of the resolved cards.",
   description2: "For instance, resolving a pair of 5s will allow you to deal 5 extra damage and regain 10 Mind Points.",
+  book: "Fabula Bonus 3",
 },
 {
   name: "Forbidden Rite",
@@ -847,6 +853,7 @@ const heroicSkillsData = [
   description4: "Forbidden Monarch: 4 cards of the same value, none of which is a joker + 1 joker",
   description5: "You deal 777 damage to each enemy present on the scene; the type of this damage is light if the common value of the 4 cards is even, or dark if that total is odd.",
   description6: "If there is a joker in your discard pile, the damage dealt by this effect ignores Immunities and Resistances.",
+  book: "Fabula Bonus 3",
 },
 
 
