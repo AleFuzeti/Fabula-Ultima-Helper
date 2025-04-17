@@ -19,24 +19,28 @@
 .artifact-card > span {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
-.artifact-card > span > h3 {
+.artifact-card > span  h3 {
   font-size: 18px;
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   color: #333;
+  text-align: end;
 }
 
-.artifact-card > span > p {
+.artifact-card > span  p {
+  margin-bottom: 0px;
+  text-align: end;
+  margin-top: 0px;
   font-size: 11px;
   color: #707070;
 }
 
 .artifact-card > p {
   font-size: 13px;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 5px;
   text-align: justify;
 }
@@ -49,6 +53,15 @@
   color: #333;
   border-bottom: 2px solid #ccc;
   padding-bottom: 4px;
+}
+
+
+.artifact-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 
 .artifact-description {

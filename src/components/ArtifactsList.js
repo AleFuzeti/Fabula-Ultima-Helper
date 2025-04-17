@@ -16,9 +16,16 @@ const ArtifactsList = ({ filters }) => {
     <div className="artifacts-container">
       {filteredArtifacts.map((artifact) => (
         <div key={artifact.name} className="artifact-card">
-          <span>
-            <h3>{artifact.name}</h3>
-            <p> {artifact.book}</p>
+          <span className="artifact-header">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/Artifacts/${artifact.img}`}
+              alt={artifact.name}
+              className="artifact-image"
+            />
+            <div>
+              <p>{artifact.book}</p>
+              <h3>{artifact.name}</h3>
+            </div>
           </span>
           <p>{artifact.visual}</p>
           <p className="description">{artifact.description}</p>
@@ -26,7 +33,7 @@ const ArtifactsList = ({ filters }) => {
           {artifact.description3 && <p>{artifact.description3}</p>}
         </div>
       ))}
-    </div>
+    </div> 
   );
 };
 
