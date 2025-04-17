@@ -1,21 +1,12 @@
-.select {
-  display: block;
-  padding: 10px;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-}
-
-/* Estilos para a página de Equipamentos */
-.equipment-container {
+/* Estilos para a página de Artifacts */
+.artifacts-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
 }
 
-.equipment-card {
+.artifact-card {
   border: 2px solid #ccc;
   border-radius: 8px;
   padding: 10px;
@@ -25,7 +16,32 @@
   width: 350px;
 }
 
-.equipment-header {
+.artifact-card > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.artifact-card > span > h3 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.artifact-card > span > p {
+  font-size: 11px;
+  color: #707070;
+}
+
+.artifact-card > p {
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+
+.artifact-header {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -35,58 +51,21 @@
   padding-bottom: 4px;
 }
 
-.equipment-header span{
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.artifact-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
 }
 
-.equipment-stats {
-  display: flex;
-  justify-content: space-between;
+.artifact-visual {
   font-size: 14px;
   font-weight: bold;
   color: #222;
   margin-top: 5px;
 }
 
-.equipment-book{
-  display: flex;
-  justify-content: space-between;
-}
-
-.equipment-book span {
-  font-size: 11px;
-  color: #707070;
-  margin: -5px 0px 16px 0px;
-  border-bottom: 1px solid #707070;
-}
-
-.equipment-category {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  color: #555;
-}
-
-.equipment-details {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  color: #555;
-  margin-top: 5px;
-}
-
-.equipment-quality {
-  font-size: 13px;
-  margin-top: 5px;
-  color: #222;
-  text-align: justify;
-}
-
-
 /* Filtros */
-.equipment-filters {
+.artifact-filters {
   background-color: #f8f8f8;
   border: 2px solid #ccc;
   border-radius: 8px;
@@ -96,10 +75,10 @@
   font-family: Arial, sans-serif;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 10px;
 }
 
-.equipment-filters h2 {
+.artifact-filters h2 {
   font-size: 18px;
   font-weight: bold;
   color: #333;
@@ -110,7 +89,7 @@
 }
 
 .filter-section {
-  flex: 1 1 16%; 
+  flex: 1 1 16%;
   background: #fff;
   padding: 10px;
   border-radius: 8px;
@@ -148,8 +127,20 @@
   color: #000;
 }
 
-/* Botão de Expandir */
-.expand-button, .clear-button {
+/* Dropdown */
+.select {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* Botões */
+.expand-button,
+.clear-button {
   display: inline-block;
   margin-top: 5px;
   background: none;
@@ -161,25 +152,19 @@
   padding: 4px;
 }
 
-.expand-button:hover, .clear-button:hover {
+.expand-button:hover,
+.clear-button:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
   .filter-section {
-    flex: 1 1 20%; 
+    flex: 1 1 20%;
   }
 }
 
 @media (max-width: 480px) {
   .filter-section {
-    flex: 1 1 41%; 
+    flex: 1 1 41%;
   }
-}
-
-
-.martialFilled {
-  fill: #b63401;
-  stroke: #000;
-  stroke-width: 25px;
 }

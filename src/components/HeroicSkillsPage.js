@@ -17,6 +17,6 @@ const HeroicSkillsPage = () => {
       <HeroicSkillsList filters={filters} />
     </div>
   );
-};
+}; 
 
 export default HeroicSkillsPage;

@@ -1,20 +1,15 @@
 import React, { useState, useEffect } from "react";
-import heroicSkillsData from "../data/heroicSkillsData";
-import "../styles/heroicSkills.css";
+import artifactsData from "../data/artifactsData";
+import "../styles/artifacts.css";
 
-const HeroicSkillsFilter = ({ onFilterChange }) => {
+const ArtifactsFilter = ({ onFilterChange }) => {
   const [selectedFilters, setSelectedFilters] = useState({});
-  const [requirements, setRequirements] = useState([]);
+  const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    const uniqueRequirements = [
-      ...new Set(
-        heroicSkillsData.flatMap((skill) =>
-          Array.isArray(skill.requirement) ? skill.requirement : [skill.requirement]
-        )
-      ),
-    ];
-    setRequirements(uniqueRequirements);
+    // Extrai os livros únicos dos artefatos
+    const uniqueBooks = [...new Set(artifactsData.map((artifact) => artifact.book))];
+    setBooks(uniqueBooks);
   }, []);
 
   const handleCheckboxChange = (e) => {
@@ -31,26 +26,26 @@ const HeroicSkillsFilter = ({ onFilterChange }) => {
       if (updatedFilters[name].length === 0) {
         delete updatedFilters[name];
       }
-    } 
+    }
 
     setSelectedFilters(updatedFilters);
     onFilterChange(updatedFilters);
   };
 
   return (
-    <div className="heroic-skills-filters">
-      <h2>Mastered</h2>
+    <div className="artifact-filters">
+      <h2>Books</h2>
       <div className="filter-section">
-        {requirements.map((req) => (
-          <div key={req} className="filter-option">
+        {books.map((book) => (
+          <div key={book} className="filter-option">
             <input
               type="checkbox"
-              name="requirement"
-              value={req}
+              name="book"
+              value={book}
               onChange={handleCheckboxChange}
-              id={`requirement-${req}`}
+              id={`book-${book}`}
             />
-            <label htmlFor={`requirement-${req}`}>{req}</label>
+            <label htmlFor={`book-${book}`}>{book}</label>
           </div>
         ))}
       </div>
@@ -58,4 +53,4 @@ const HeroicSkillsFilter = ({ onFilterChange }) => {
   );
 };
 
-export default HeroicSkillsFilter;
+export default ArtifactsFilter;

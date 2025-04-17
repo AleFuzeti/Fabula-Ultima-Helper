@@ -177,23 +177,23 @@ const equipmentData = {
 
     ],
     shield: [
-      { rare: "Basic", name: "Bronze Shield", cost: "100", def: "+2", mdef: "0",  initiative: "0", martial: "No",  book: "Core Rulebook", quality: "No Quality." },
-      { rare: "Basic", name: "Runic Shield",  cost: "150", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "Core Rulebook", quality: "No Quality." },
+      { rare: "Basic", name: "Bronze Shield", cost: "100", def: "+2", mdef: "0",  martial: "No",  book: "Core Rulebook", quality: "No Quality." },
+      { rare: "Basic", name: "Runic Shield",  cost: "150", def: "+2", mdef: "+2", martial: "Yes", book: "Core Rulebook", quality: "No Quality." },
       
-      { rare: "Rare", name: "Bag Shield",    cost: "1000", def: "+2", mdef: "0",  initiative: "0", martial: "No",  book: "High Fantasy Atlas", quality: "When a Skill lets you recover Inventory Points, you recover 1 additional Inventory Point." },
-      { rare: "Rare", name: "Drumshield",    cost: "1700", def: "+2", mdef: "0",  initiative: "0", martial: "No",  book: "High Fantasy Atlas", quality: "If you have the Resonance Skill (page 137), consider your Skill Level in it increased by 2 (up to a maximum of SL 5)." },
-      { rare: "Rare", name: "Argus E",       cost: "2000", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "High Fantasy Atlas", quality: "When you use the King's Castle and Bishop's Edict Skills (page 141), you may exclude one creature you can see from their effects." },
-      { rare: "Rare", name: "Shield of Blades E", cost: "2000", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "High Fantasy Atlas", quality: "When you attack with a weapon belonging to the heavy, spear, or sword Category, if the attack has the multi property, that attack deals 5 extra damage." },
-      { rare: "Rare", name: "Parry Shield E", cost: "2500", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "High Fantasy Atlas", quality: "If you have the Counterattack Skill (Core Rulebook, page 219), the Skill also triggers when the result of an enemy's Accuracy Check is an odd number." },
+      { rare: "Rare", name: "Bag Shield",    cost: "1000", def: "+2", mdef: "0",  martial: "No",  book: "High Fantasy Atlas", quality: "When a Skill lets you recover Inventory Points, you recover 1 additional Inventory Point." },
+      { rare: "Rare", name: "Drumshield",    cost: "1700", def: "+2", mdef: "0",  martial: "No",  book: "High Fantasy Atlas", quality: "If you have the Resonance Skill (page 137), consider your Skill Level in it increased by 2 (up to a maximum of SL 5)." },
+      { rare: "Rare", name: "Argus E",       cost: "2000", def: "+2", mdef: "+2", martial: "Yes", book: "High Fantasy Atlas", quality: "When you use the King's Castle and Bishop's Edict Skills (page 141), you may exclude one creature you can see from their effects." },
+      { rare: "Rare", name: "Shield of Blades E", cost: "2000", def: "+2", mdef: "+2", martial: "Yes", book: "High Fantasy Atlas", quality: "When you attack with a weapon belonging to the heavy, spear, or sword Category, if the attack has the multi property, that attack deals 5 extra damage." },
+      { rare: "Rare", name: "Parry Shield E", cost: "2500", def: "+2", mdef: "+2", martial: "Yes", book: "High Fantasy Atlas", quality: "If you have the Counterattack Skill (Core Rulebook, page 219), the Skill also triggers when the result of an enemy's Accuracy Check is an odd number." },
      
-      { rare: "Rare", name: "Icebreaker E",  cost: "700", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "Techno Fantasy Atlas", quality: "All physical and fire damage you deal ignores Resistances." },
-      { rare: "Rare", name: "Ballistic Shield", cost: "800", def: "0", mdef: "0", initiative: "0", martial: "No", book: "Techno Fantasy Atlas", quality: "You gain a +1 bonus to your Accuracy Check with ranged weapons." },
-      { rare: "Rare", name: "Windshield E",  cost: "1000", def: "+2", mdef: "+2", initiative: "0", martial: "No", book: "Techno Fantasy Atlas", quality: "While driving your personal vehicle (see page 160), you gain Resistance to air and ice damage." },
-      { rare: "Rare", name: "Hekat Shield E", cost: "2000", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "Techno Fantasy Atlas", quality: "You have Resistance to damage dealt by spells. When a spell deals damage to you, you recover 5 Mind Points." },
+      { rare: "Rare", name: "Icebreaker E",  cost: "700", def: "+2", mdef: "+2", martial: "Yes", book: "Techno Fantasy Atlas", quality: "All physical and fire damage you deal ignores Resistances." },
+      { rare: "Rare", name: "Ballistic Shield", cost: "800", def: "0", mdef: "0", martial: "No", book: "Techno Fantasy Atlas", quality: "You gain a +1 bonus to your Accuracy Check with ranged weapons." },
+      { rare: "Rare", name: "Windshield E",  cost: "1000", def: "+2", mdef: "+2", martial: "Yes", book: "Techno Fantasy Atlas", quality: "While driving your personal vehicle (see page 160), you gain Resistance to air and ice damage." },
+      { rare: "Rare", name: "Hekat Shield E", cost: "2000", def: "+2", mdef: "+2", martial: "Yes", book: "Techno Fantasy Atlas", quality: "You have Resistance to damage dealt by spells. When a spell deals damage to you, you recover 5 Mind Points." },
 
-      { rare: "Rare", name: "Plate Manica", cost: "800", def: "+2", mdef: "0", initiative: "0", martial: "No", book: "Natural Fantasy Atlas", quality: "As long as you don't have a martial armor or another shield equipped, you may apply the effects of the Dodge Skill (see Core Rulebook, page 203)." },
-      { rare: "Rare", name: "Lid Shield E", cost: "1500", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "Natural Fantasy Atlas", quality: "When you deal damage with a delicacy (see page 151), you deal 5 extra damage." },
-      { rare: "Rare", name: "Lily Vambrace E", cost: "2000", def: "+2", mdef: "+2", initiative: "0", martial: "Yes", book: "Natural Fantasy Atlas", quality: "If you have the Battle Gardening Skill (see page 139), you can use it when you plant a magiseed with the Graft Skill." },
+      { rare: "Rare", name: "Plate Manica", cost: "800", def: "+2", mdef: "0", martial: "No", book: "Natural Fantasy Atlas", quality: "As long as you don't have a martial armor or another shield equipped, you may apply the effects of the Dodge Skill (see Core Rulebook, page 203)." },
+      { rare: "Rare", name: "Lid Shield E", cost: "1500", def: "+2", mdef: "+2", martial: "Yes", book: "Natural Fantasy Atlas", quality: "When you deal damage with a delicacy (see page 151), you deal 5 extra damage." },
+      { rare: "Rare", name: "Lily Vambrace E", cost: "2000", def: "+2", mdef: "+2", martial: "Yes", book: "Natural Fantasy Atlas", quality: "If you have the Battle Gardening Skill (see page 139), you can use it when you plant a magiseed with the Graft Skill." },
 
 
     ],

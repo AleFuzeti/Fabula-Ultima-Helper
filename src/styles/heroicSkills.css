@@ -44,8 +44,8 @@
     align-items: baseline;
   }
 
-  .heroic-skill-card>span>h3 {
-    font-size: 18px;
+  .heroic-skill-card>span>h3 { 
+    font-size: 18px; 
     margin-top: 0px;
     margin-bottom: 5px;
     color: #333;

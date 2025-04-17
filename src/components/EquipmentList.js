@@ -58,21 +58,23 @@ const EquipmentList = ({ type, filters }) => {
           <span>{item.damage} {item.damage_type}</span>
         </div>
 
-        {(type === "shield" || type === "armor") && (
         <>
         <div className="equipment-stats">
           <span>Defense</span>
           <span>MDefense</span>
+        {(type === "armor") && (
           <span>Initiative</span>
+        )}
         </div>
         
         <div className="equipment-details">
           <span>{item.def}</span>
           <span>{item.mdef}</span>
+          {(type === "armor") && (
           <span>{item.initiative}</span>
+          )}
         </div>
         </>
-        )}
 
         <div className="equipment-details">
           <span>{item.hand}</span>
