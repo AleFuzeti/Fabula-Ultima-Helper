@@ -36,7 +36,7 @@ const EquipmentList = ({ type, filters }) => {
 
       <div className="header">
         <img
-              src={`${process.env.PUBLIC_URL}/assets/Weapons/loading.gif`}
+              src={item.img ? `${process.env.PUBLIC_URL}/assets/Equips/${type}/${item.img}` : `${process.env.PUBLIC_URL}/assets/loading.gif`}
               alt={item.name}
               className="equip-image"
             />
@@ -48,8 +48,8 @@ const EquipmentList = ({ type, filters }) => {
           </div>
 
           <div className="equipment-category">
-            <span>{item.rare}</span>
             <span>{item.category}</span>
+            <span>{item.rare}</span>
           </div>
 
           <div className="equipment-header">
