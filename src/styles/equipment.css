@@ -165,6 +165,21 @@
   color: #000;
 }
 
+.filter-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.filter-header h3 {
+  font-size: 14px;
+
+}
+.filter-header button {
+  cursor: pointer;
+  font-size: 11px;
+}
+
 /* Botão de Expandir */
 .expand-button, .clear-button {
   display: inline-block;

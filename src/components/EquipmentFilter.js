@@ -29,6 +29,7 @@ const EquipmentFilter = ({ type, onFilterChange }) => {
     delete uniqueOptions.book;
     delete uniqueOptions.quality;
     delete uniqueOptions.acc_mod;
+    delete uniqueOptions.img;
 
     const formattedOptions = Object.fromEntries(
       Object.entries(uniqueOptions).map(([key, values]) => [key, [...values]])
@@ -73,7 +74,16 @@ const EquipmentFilter = ({ type, onFilterChange }) => {
 
           return (
             <div key={field} className="filter-section">
-              <h3>{field}</h3>
+              
+              <div className="filter-header">
+                <h3>{field}</h3> <button
+                  className="clear-button"
+                  onClick={() => clearFilter(field)}
+                >
+                  Clear Filter
+                </button>
+              </div>
+
               {displayedValues.map((value) => (
                 <div key={value} className="filter-option">
                   <input
@@ -95,12 +105,7 @@ const EquipmentFilter = ({ type, onFilterChange }) => {
                   {isExpanded ? "▲ Show Less" : "▼ Show More"}
                 </button>
               )}
-              <button
-                className="clear-button"
-                onClick={() => clearFilter(field)}
-              >
-                Clear Filter
-              </button>
+              
             </div>
           );
         })}
