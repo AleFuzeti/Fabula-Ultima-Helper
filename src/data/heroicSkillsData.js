@@ -310,9 +310,8 @@ const heroicSkillsData = [
   },
   {
     name: "Pulverizing Strike",
-    requirement: ["Dancer"],
-    other: "Acquired the Follow My Lead Skill.",
-    description: "While you are in Crisis, you ignore the MP cost for your Follow My Lead Skill.",
+    requirement: ["Darkblade, Fury, Weaponmaster"],
+    description: "After you hit a creature with Breach, if you attacked with a melee weapon that belongs to the heavy Category, you may have the attack deal damage equal to your High Roll (HR) instead of dealing no damage. Any source of extra damage, including the extra damage from the third option of the Breach Skill itself, still applies — ignore the damage dealt by the weapon.",
     book: "High Fantasy Atlas",
   },
   {
@@ -972,10 +971,126 @@ const heroicSkillsData = [
     book: "Haloween Bonus 2024",
   },
 
-
-
-
-
+  // TAILS HEROIC SKILLS
+  
+  {
+    name: "Arcane Fighter",
+    requirement: [
+      "Arcanist", "Chimerist", "Elementalist", "Entropist", "Spiritist", "Weaponmaster"
+    ],
+    description: "While you are merged with an Arcanum, if you have up to two melee arcane weapons equipped, you gain the following benefits for melee arcane weapons until you dismiss that Arcanum:",
+    description2: "They each may be treated as also belonging to an extra Category for the purpose of Skills and effects that require it, chosen among flail, heavy, spear or sword;",
+    description3: "Your attacks with them deal 5 extra damage;",
+    description4: "Your attacks with them target Magical Defense instead of Defense;",
+    description5: "Your attacks with them are able to target flying creatures.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Balanced",
+    requirement: [
+      "All Classes"
+    ],
+    other: "Acquired the Jack of All Trades profile (d8 base die size on all Attributes).",
+    description: "When you rest, you may choose one option:",
+    description2: "Choose one Attribute among Dexterity, Insight, Might or Willpower. Until you rest again, you treat the base die size of the chosen Attribute as if it were one die size higher (up to a maximum of d12). Then, update your Defense score, Magic Defense score, Maximum Hit Points and Crisis score, and Maximum Mind Points accordingly.",
+    description3: "Choose two different Attributes among Dexterity, Insight, Might or Willpower. Until you rest again, you gain a +1 bonus for Checks that involve each Attribute you chose (for example, if you chose Insight and Willpower, you gain a +1 bonus on Checks that use only one of those Attributes, or a +2 bonus on Checks that use both).",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Blade and Sorcery",
+    requirement: [
+      "Chimerist", "Darkblade", "Elementalist", "Sharpshooter", "Weaponmaster"
+    ],
+    description: "At the start of a conflict scene, choose a Stance to be in among Weapon Stance or Spell Stance.",
+    description2: "When you deal damage to one or more enemies with an attack, if you are in Weapon Stance, you recover 10 Mind Points and change to Spell Stance.",
+    description3: "When you deal damage to one or more enemies with an offensive spell, if you are in Spell Stance, you deal 5 extra damage and change to Weapon Stance.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Bleeding Heart",
+    requirement: [
+      "Darkblade", "Spiritist"
+    ],
+    description: "When you spend Hit Points through the Vismagus Skill, choose one ally you can see. That ally may recover a number of Mind Points equal to half as many Hit Points you spent this way.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Bonsai",
+    requirement: [
+      "Florist"
+    ],
+    description: "After you rest, you may spend 20 Mind Points and choose one magiseed you discovered whose first effect applies when its Growth Clock has 0 sections filled. If you do, you may benefit from this magiseed’s first effect until you enter a conflict or you use this Skill again.",
+    description2: "At the start of a conflict, you may use the Chloromancy Skill to immediately plant the chosen magiseed for free, ignoring the Skill’s cost in Mind Points.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Chronomancer (V1)",
+    requirement: [
+      "Dancer", "Entropist"
+    ],
+    description: "During a conflict, when you perform a dance, an Entropist spell, or the Stolen Time Skill, you gain 1 Chrono Point.",
+    description2: "When you reach 5 Chrono Points, you immediately lose all Chrono Points and choose one option: A Player Character you can see recovers 20 Hit Points, 20 Mind Points and 3 Inventory Points, or a creature you can see loses 25 Hit Points and 25 Mind Points.",
+    description3: "You lose all Chrono Points at the end of the scene.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Chronomancer (V2)",
+    requirement: [
+      "Entropist"
+    ],
+    other: "Must have learned the Acceleration and/or Stop spells",
+    description: "When you hit one or more creatures with the Stop spell, you may deal 【HR+5】 dark damage to each of them. This damage increases by 5 if you are Level 20 or higher, or by 10 if you are Level 40 or higher.",
+    description2: "Additionally, during a conflict and once per turn, a creature under the effects of your Acceleration spell may spend one use of this spell’s effect and choose up to two different options: recover 25 Hit Points, or recover 25 Mind Points, or recover 2 Inventory Points, or recover from one Status Effect of their choice.",
+    description3: "The author had two different ideas for the Chronomancer Heroic Skills. It is recommended that a Player Character should be able to learn only one of them.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Companion Garden",
+    requirement: [
+      "Florist", "Wayfarer"
+    ],
+    description: "When you plant a magiseed, you may plant it on your companion. If you do, as long as your companion has a magiseed planted on them, its attacks and spells deal extra damage equal to 【2 + your Growth Clock】, and all damage it suffers is reduced by 【2 + your Growth Clock】 (applied before damage Affinities).",
+    description2: "If your companion falls to 0 Hit Points, you remove the magiseed from your garden and erase all sections of your Growth Clock (triggering effects like the Tree of Life Skill normally).",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Dark Aura",
+    requirement: [
+      "Darkblade", "Guardian"
+    ],
+    description: "When you enter Crisis, choose one ally you can see. Until you are no longer in Crisis, that ally gains Resistance to the same damage types as you.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Deep Connection",
+    requirement: [
+      "Darkblade", "Esper", "Spiritist"
+    ],
+    description: "At the start of a conflict, choose one ally you have a Bond with a strength of 3 towards. You and that ally become connected until the end of the scene.",
+    description2: "Connected creatures may use each other’s Mind Points to pay the Mind Point costs of spells, Skills and other effects.",
+    description3: "A creature cannot be connected to more than one other creature. If a connected creature leaves the scene, falls unconscious, or dies, the connection between the two creatures ends. Similarly, if you no longer have a Bond with a strength of 3 towards that creature, the connection ends.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Defensive Wardancer",
+    requirement: [
+      "Guardian", "Dancer"
+    ],
+    other: "Must have acquired the Wardancer Skill",
+    description: "After you perform a dance, you may ignore the effects of the Wardancer Skill. If you do, choose one of the following effects:",
+    description2: "Nimble Step: You increase your Defense score by 【your SL in Wardancer】 until the start of your next turn or until a creature misses you with an attack. When a creature misses you with an attack, that creature suffers 【5 + your SL in Wardancer】 physical damage.",
+    description3: "Spell Bend: You increase your Magic Defense score by 【your SL in Wardancer】 until the start of your next turn or until a creature misses you with an offensive spell. When a creature misses you with an offensive spell, you recover a number of Mind Points equal to 【5 + your SL in Wardancer】.",
+    book: "Tails Custom Heroic Skills"
+  },
+  {
+    name: "Dragon Dance",
+    requirement: [
+      "Dancer"
+    ],
+    description: "Choose one dance you know among the following: Angel, bat, golem, griffin, myrmidon, phoenix or yeti.",
+    description2: "That dance now allows you to gain both of its effects at the same time, the Resistance becomes Immunity, and the damage type ignores Resistances and Immunities.",
+    book: "Tails Custom Heroic Skills"
+  },
 
 
 
