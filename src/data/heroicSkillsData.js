@@ -195,19 +195,19 @@ const heroicSkillsData = [
 
 
 
-// Rework 2023
+// Playtest 08-09-23
 {
   name: "Revelation (Rework)",
   requirement: ["Arcanist"],
   description: "You make contact with a previously unknown Arcanum, which you design together with the rest of your group, and bind that Arcanum to your soul (feel free to make it a bit stronger than normal, since it was obtained through a Heroic Skill). For as long as you live, no one else in your world will be able to bind that Arcanum.",
   description2: "When you summon an Arcanum, if you are in Crisis and choose both options of the Quick Summoning Skill, you only suffer the first penalty (the dismiss effect of the summoned Arcanum will be available for this summoning).", 
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Adversity (Rework)",
   requirement: ["Darkblade"],
   description: "As long as you are suffering from one or more status effects, you gain a +1 bonus on all Checks you perform for every status effect you are suffering from (up to a maximum of +3), and you also deal 2 extra damage for every status effect you are suffering from (be it with attacks, spells, Arcana, items, or any other method; up to a maximum of 6 extra damage).",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Ultimagic",
@@ -216,7 +216,7 @@ const heroicSkillsData = [
   description2: "40 MP, Special, Instantaneous",
   description3: "Choose one option: you deal 50 damage of the type you have chosen to one enemy you can see; or you deal 30 damage of the type you have chosen to every enemy you can see. This damage increases by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher.",
   description4: "Damage dealt by this spell ignores Immunities and Resistances.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Comet (Rework)",
@@ -225,7 +225,7 @@ const heroicSkillsData = [
   description2: "50 MP, Special, Instantaneous",
   description3: "You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option: you deal 60 damage to one enemy you can see; or you deal 40 damage to every enemy you can see. This damage increases by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher.",
   description4: "Damage dealt by this spell has no type (thus ignoring damage Affinities).",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Monkey Grip (Rework)",
@@ -233,7 +233,7 @@ const heroicSkillsData = [
   other: "Mastered Fury",
   description: "You may now equip two-handed weapons belonging to the firearm, flail, heavy, spear, and sword Categories within a single hand slot.",
   description2: "Additionally, the first attack you perform with a two-handed weapon during each turn deals 5 extra damage, and its damage ignores Resistances.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Rampart (Rework)",
@@ -241,7 +241,7 @@ const heroicSkillsData = [
   description: "Once per conflict scene, at the beginning of a round, if you have a martial armor or a shield equipped, you may spend 20 Mind Points.",
   description2: "If you do, you and every ally present on the scene have Resistance to all damage types and cannot suffer status effects until the end of the round.",
   description3: "This does not let you recover from preexisting status effects.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Mathemagic (Rework)",
@@ -251,7 +251,7 @@ const heroicSkillsData = [
   description3: "Additionally, all mentions of 'the target' in the spell's text are replaced with 'each target'; or they are replaced with 'one or more targets' if the spell is Anomaly, Dispel, Mercy, or Mirror.",
   description4: "When the spell ends on one or more of its targets, it automatically ends on all its targets. If you cast an offensive spell this way, you perform a single Magic Check and confront it with the Magic Defense of each target.",
   description5: "Note: this version of Mathemagic assumes you are using reworked Acceleration.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Upgrade (Rework)",
@@ -259,20 +259,20 @@ const heroicSkillsData = [
   description: "When you rest, you may choose any number of armors, shields, and/or weapons among those owned by your group. For each item chosen this way, you may either add a Quality to it (if it doesn't have one) or replace its current Quality with a different one.",
   description2: "These Qualities must come from the list of default Qualities available for items of that type, and must have an associated cost modifier of +1000 zenit or lower. At the end of the rest, you must pay an amount of zenit equal to the total sum of those cost modifiers, reduced by 【your Skill Level in Visionary, multiplied by 100】. If you do, the items will be modified according to your choices.",
   description3: "The default list of weapon abilities can be found on page 269, while the default list of armor and shield abilities can be found on page 280.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Fast Learner",
   requirement: ["Wayfarer"],
   description: "Once per conflict scene when another Player Character you can see performs the Skill or Spell action to cast a spell or activate a Skill or Heroic Skill, if you have not learned or acquired that spell or Skill, you can temporarily learn or acquire that spell or Skill until the end of the scene.",
   description2: "If you acquire a Skill this way, you are treated as having 1 Skill Level in it, and you do not gain any of the additional benefits you would normally acquire when gaining that Skill through character progression: for instance, you would not create a new companion by temporarily acquiring the Faithful Companion Skill, nor would you learn any volumes, keys, or tones by temporarily acquiring the Magichant Skill.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 {
   name: "Tempest Strike (Rework)",
   requirement: ["Weaponmaster"],
   description: "When you perform a melee attack with the multi property, you gain a bonus to your Accuracy Check equal to the value of that multi property, and the attack deals 5 extra damage. If the attack targets only one creature, it deals another 5 extra damage.",
-  book: "Rework 2023",
+  book: "Playtest 08-09-23",
 },
 
 
@@ -1094,7 +1094,7 @@ const heroicSkillsData = [
 
 
 
-// HEROIC STYLE SKILLS
+// all classes
   { 
     name:"Ambidextrous",
     requirement: ["All Classes"],
@@ -1126,8 +1126,10 @@ const heroicSkillsData = [
     description: "When you acquire this Skill, learn any two spells from one of the following lists: Elementalist, Entropist, or Spiritist. Both spells chosen this way must come from the same list, and they follow the standard rules for casting spells of that Class.",
     book: "Core Rulebook",
   },
+
+  // HEROIC STYLES SKILLS
   {
-    name:"Agile Defender Style",
+    name:"Agile Defender Style V1",
     requirement: ["All Classes"],
     other: "have Skill Level 2 or higher in Dodge (see Rogue)",
     description: "As long as you have no shields and no martial armor equipped, you gain all of the following benefits:",
@@ -1136,7 +1138,27 @@ const heroicSkillsData = [
     description4: "You may use the Protect Skill (see Guardian) even if you have not acquired it.",
     description5: "Your Magic Defense score is increased by 【your Skill Level in Dodge】.",
     description6: "Additionally, your maximum Hit Points and Crisis score are now calculated based on your base Dexterity die size, instead of your base Might die size.",
-    book: "Rework 2023",
+    book: "Playtest 08-09-23",
+  },
+  {
+    name:"Agile Defender Style V2",
+    requirement: ["All Classes"],
+    other: "have Skill Level 2 or higher in Dodge (see Rogue).",
+    description: "As long as you have no shields and no martial armor equipped, you gain all of the following benefits:",
+    description2: "You may use the Protect Skill (see Guardian) even if you have not acquired it.",
+    description3: "Your Magic Defense score is increased by 【your Skill Level in Dodge】.",
+    description4: "You treat your maximum Hit Points as increased by 10, or by 20 if you are level 30 or higher.",
+    book: "Playtest 05-12-24",
+  },
+  {
+    name:"Agile Defender Style V2",
+    requirement: ["All Classes"],
+    other: "have Skill Level 2 or higher in Dodge (see Rogue), and must have a Dexterity base die size of d10 or higher.",
+    description: "As long as you have no shields and no martial armor equipped, you gain all of the following benefits:",
+    description3: "You treat your Skill Level in Dodge as being increased by 2 (to a maximum of 5).",
+    description4: "You may use the Protect Skill (see Guardian) even if you have not acquired it.",
+    description5: "When you use the Protect Skill during another creature's turn, damage you suffer is reduced by an amount equal to 【your current Dexterity die size】 until the end of that turn (before applying Affinities).",
+    book: "Playtest 23-01-25",
   },
   {
     name:"Blast Gladiator Style",
@@ -1145,7 +1167,7 @@ const heroicSkillsData = [
     description: "Choose one damage type among air, bolt, dark, earth, fire, ice, light, physical, and poison.",
     description2: "When you use the Bone Crusher Skill on one or more creatures, you may have each of those creatures become imbued until the end of the scene.",
     description3: "After one or more imbued creatures lose Hit Points, each of those creatures stops being imbued and you deal an amount of damage of the chosen type equal to 【2 + (twice your Skill Level in Bone Crusher)】 to them. The type of this damage cannot be changed; this effect deals 5 extra damage if you are level 20 or higher, or 10 extra damage if you are level 40 or higher; it also deals an additional 5 extra damage if you have a brawling or firearm weapon equipped, or if you have a weapon module (see Pilot) equipped.",
-    book: "Rework 2023",
+    book: "Playtest 03-12-23",
   },
   {
     name:"Bullet Deflection Style",
@@ -1153,14 +1175,14 @@ const heroicSkillsData = [
     other: "have a Dexterity base die size of d10 or higher and/or an Insight base die size of d10 or higher",
     description: "After a creature you can see performs a ranged attack, you may spend an amount of Mind Points equal to 【5 + the Result of their Accuracy Check】 in order to have the attack fail automatically against all targets. If you do and the Result of that Accuracy Check is an even number, you may have one enemy you can see lose an amount of Hit Points equal to that Check's High Roll.",
     description2: "You can only use this Skill if you have a weapon of the sword Category equipped, and it has no effect if the Accuracy Check was a critical success.",
-    book: "Rework 2023",
+    book: "Playtest 10-06-24",
   },
   {
     name:"Charged Punch Style",
     requirement: ["All Classes"],
     other: "have acquired the Withstand Skill (see Fury)",
     description: "When you perform the Guard action and activate the Withstand Skill, you may choose one brawling weapon you have equipped. If you do, choose one option: double the High Roll when determining damage of the next attack you perform with the chosen weapon before the end of your next turn; or if the next attack you perform with the chosen weapon before the end of your next turn would have its High Roll treated as being equal to 0 when determining damage, instead you may use its normal value.",
-    book: "Rework 2023",
+    book: "Playtest 10-10-23",
   },
   {
     name:"Collector Style",
@@ -1169,7 +1191,7 @@ const heroicSkillsData = [
     description: "Your backpack can contain any number of weapons.",
     description2: "At the end of your turn during a conflict scene, you may perform the Equipment action for free.",
     description3: "When you attack with a weapon during a conflict, if this is the first time you attack with that weapon during this conflict, you gain a +5 bonus to your Accuracy Check and the attack deals 5 extra damage (the two forms of a transforming custom weapon are still considered 'the same weapon' for the sake of this effect). This benefit does not apply to unarmed strikes, magicannon (see Tinkerer) and twin shields (see Guardian), but it does apply as usual to weapon modules (see Pilot).",
-    book: "Rework 2023",
+    book: "Playtest 11-08-24",
   },
   {
     name:"Detonation Style",
@@ -1177,7 +1199,7 @@ const heroicSkillsData = [
     other: "have acquired the basic Alchemy benefit from the Gadget Skill (see Tinkerer)",
     description: "When you use your Alchemy to create a potion, you can always select effects 3 to 8 (you can treat those effects as if they had 'Any' in the 'Die' column of the table). If the potion is advanced or superior, its damage ignores Resistances.",
     description2: "When you succeed on a Check to advance or turn back a Clock, if your approach relied on explosives, gunpowder or pyrotechnics, you may fill or erase 1 additional section of that Clock.",
-    book: "Rework 2023",
+    book: "Playtest 08-09-23",
   },
   {
     name:"Duelist Style",
@@ -1187,21 +1209,21 @@ const heroicSkillsData = [
     description2: "When you deal damage with a weapon that is not an unarmed strike, you may double your Accuracy Check's High Roll when determining the attack's damage. If you do, you cannot use this option again until the beginning of your next turn.",
     description3: "During conflicts, you ignore the MP cost of the following Skills: Bladestorm, Breach, Condemn, Encourage, and Provoke (see Fury, Orator, and Weaponmaster).",
     description4: "These benefits do not apply to weapon modules (see Pilot).",
-    book: "Rework 2023",
+    book: "Playtest 07-11-24",
   },
   {
     name:"Dark Blessing Style",
     requirement: ["All Classes"],
     other: "have acquired the Shadow Strike Skill (see Darkblade)",
     description: "When you lose Hit Points due to your Shadow Strike Skill, if doing so does not reduce you to 0 Hit Points, every ally present on the scene recovers an equal amount of Hit Points. This amount increases by 5 Hit Points if you are level 20 or higher, or by 10 Hit Points if you are level 40 or higher.",
-    book: "Rework 2023",
+    book: "Playtest 11-08-24",
   },
   {
     name:"Fūma Shuriken Style",
     requirement: ["All Classes"],
     other: "have acquired the Barrage Skill (see Sharpshooter)",
     description: "During a conflict, you may use an action to perform a free attack with a two-handed thrown weapon. If you do, you deal 5 extra damage and the attack targets all enemies present on the scene.",
-    book: "Rework 2023",
+    book: "Playtest 08-09-23",
   },
   {
     name:"Gunbreaker Style",
@@ -1209,7 +1231,7 @@ const heroicSkillsData = [
     other: "have acquired both the Sharpshooter and Weaponmaster Classes",
     description: "As long as you have transforming custom weapon equipped, if one of that weapon's forms is melee and the other is ranged, you may use the Bone Crusher, Breach, and Counterattack Skills (see Weaponmaster) with its ranged form, and you may use the Crossfire, Hawkeye, and Warning Shot Skills (see Sharpshooter) with its melee form. Additionally, both forms are also treated as belonging to the firearm Category for the sake of allowing use of the Hawkeye Skill.",
     description2: "When you perform the Bone Crusher or Breach Skill with a ranged weapon, or when you perform the Hawkeye or Warning Shot Skill with a melee weapon, your Skill Level in them is treated as being increased by 2 (to a maximum of SL 6).",
-    book: "Rework 2023",
+    book: "Playtest 09-09-24",
   },
   {
     name:"Gunslinger Style",
@@ -1217,14 +1239,14 @@ const heroicSkillsData = [
     other: "have Skill Level 2 or higher in Ranged Weapon Mastery (see Sharpshooter)",
     description: "You may use an action to perform up to three consecutive free attacks with a one-handed firearm weapon equipped in your main hand slot (against the same target or different targets). If you do, all attacks performed this way follow the rules for two-weapon fighting: they lose the multi property and cannot gain it, and you treat the High Roll of each Accuracy Check as being equal to 0 when determining damage. Additionally, if any attack made this way misses, you lose your rhythm and cannot perform the remaining attacks.",
     description2: "You may use this Skill only if you have a one-handed firearm weapon equipped in your main hand slot, if that weapon is not a weapon module (see Pilot) whose text says 'A personal vehicle with this module enabled cannot have any other weapon modules enabled', and if your off-hand slot is empty or contains an unarmed strike.",
-    book: "Rework 2023",
+    book: "Playtest 06-05-24",
   },
   {
     name:"Heightened Element Style",
     requirement: ["All Classes"],
     other: "have learned two or more spells that deal damage",
     description: "When you deal damage with a spell, you may change that damage's type to the one you have chosen; and as long as a spell you cast deals damage of the chosen type, that spell deals 5 extra damage and all its damage ignores Resistances.",
-    book: "Rework 2023",
+    book: "Playtest 08-09-23",
   },
   {
     name:"Hidden Weapon Style",
@@ -1232,7 +1254,7 @@ const heroicSkillsData = [
     other: "have acquired the Cheap Shot Skill (see Rogue)",
     description: "After one or more enemies you can see lose Hit Points due to damage dealt by one of your allies, if at least one of them is Vulnerable to the type of damage dealt by your ally, you may choose one of those enemies. If you do, that enemy loses an amount of Hit Points equal to 【half your level + (twice your Skill Level in Cheap Shot)】 and also suffer the chosen status effect.",
     description2: "Once you use this Skill during a conflict, you may not use it again until the beginning of your next turn.",
-    book: "Rework 2023",
+    book: "Playtest 08-02-24",
   },
   {
     name:"Humble Style",
@@ -1242,7 +1264,7 @@ const heroicSkillsData = [
     description2: "As long as you have two or fewer weapons equipped, your attacks with non-martial weapons deal 5 extra damage and you may also treat those weapons as belonging to the spear and sword Categories for the sake of Skills that require it; this benefit does not apply to unarmed strikes, weapon modules (see Pilot), twin shields (see Guardian), and magicannon (see Tinkerer).",
     description3: "As long as the only weapon you have equipped is a staff, you apply all of the above benefits but may also treat that staff as belonging to the brawling and heavy Categories for the sake of Skills that require it, and your attacks with it deal an additional 5 extra damage.",
     description4: "Additionally, when you perform an attack using an improvised weapon, you deal 5 extra damage and may have that weapon not be destroyed after the attack.",
-    book: "Rework 2023",
+    book: "Playtest 10-06-24",
   },
   {
     name:"Iaidō Style",
@@ -1251,7 +1273,7 @@ const heroicSkillsData = [
     description: "When you join a conflict and/or when you enter Crisis for the first time during a conflict, if you have exactly one weapon equipped and that weapon is a two-handed sword or a weapon module (see Pilot) that belongs to the sword Category, you may enter a iaidō stance.",
     description2: "When an enemy you can see begins their turn, if you are in your iaidō stance, you may exit it. If you do, you perform a free attack with a weapon belonging to the sword Category you have equipped; this attack must include that enemy among its targets. When you perform an attack with a weapon belonging to the sword Category, if you are in your iaidō stance, you may exit it. If you do, the attack deals extra damage equal to 【your Skill Level in Melee Weapon Mastery, multiplied by 5】 and  you choose up to one option: fill or erase 1 section of a Clock if the attack hits all its targets; or the attack can target creatures that cannot be targeted by melee attacks; or each creature hit by the attack cannot perform free attacks until the end of the current turn.",
     description3: "You automatically exit iaidō stance as soon as you no longer have the same sword weapon equipped or have more than one weapon equipped.",
-    book: "Rework 2023",
+    book: "Playtest 10-06-24",
   },
   {
     name:"Investigator Style",
@@ -1260,28 +1282,28 @@ const heroicSkillsData = [
     description: "When you perform a Check to examine a creature, item or location during a conflict scene, you may memorize the High Roll of that Check.",
     description2: "When a source deals damage to one or more creatures you can see, you may forget one of your memorized High Rolls to choose one option: that source deals extra damage to each creature equal to the forgotten High Roll; or reduce damage dealt by that source to each creature by an amount equal to the forgotten High Roll (before applying Affinities).",
     description3: "You automatically forget all memorized High Rolls at the end of each scene.",
-    book: "Rework 2023",
+    book: "Playtest 08-09-23",
   },
   {
     name:"Palm And Step Style",
     requirement: ["All Classes"],
     other: "have acquired the Dodge Skill (see Rogue) and/or the Indomitable Spirit Skill (see Fury)",
     description: "As long as you have no martial items equipped, you may use an action to perform up to three consecutive free attacks with an unarmed strike you have equipped (against the same target or against different targets). If you do, each attack receives a bonus equal to 【your Skill Level in Dodge + your Skill Level in Indomitable Spirit】 to the Accuracy Check, loses the multi property and cannot gain it, and deals damage equal to 【4 + (twice your Skill Level in Dodge) + (twice your Skill Level in Indomitable Spirit) + your current Bravery Points (see the Rising Tide Heroic Skill)】 instead of the normal amount of damage it would deal (this value cannot be modified by sources of extra damage, multiplications, subtractions, or divisions; however, Affinities will apply to any Hit Point loss it causes as normal).",
-    book: "Rework 2023",
+    book: "Playtest 07-11-24",
   },
   {
     name:"Piercing Sorcery Style",
     requirement: ["All Classes"],
     other: "have acquired the Cataclysm Skill (see Elementalist)",
     description: "Once per turn, when you use the Cataclysm Skill to empower an offensive spell with a target of 'Up to three creatures', if that spell targets only one creature, you may double the extra damage granted by Cataclysm. If you do, you may choose up to two options: damage dealt by the spell ignores Resistances; or if the target of the spell is flying, you force them to land immediately; or the target of the spell suffers dazed; or the target of the spell cannot perform the Guard action during their next turn.",
-    book: "Rework 2023",
+    book: "Playtest 07-03-24",
   },
   { 
     name:"Prophetic Defender Style",
     requirement: ["All Classes"],
     other: "have learned the Divination spell (see Entropist)",
     description: "When a source causes one or more allies present on the scene to lose Hit Points, if you are currently affected by your Divination spell, you may expend one of the forced rerolls granted by the spell. If you do, you suffer all those Hit Point losses in place of those allies, as separate instances (you cannot choose to suffer only some of them); additionally, each of these Hit Point losses is reduced by 5 (example: if a source causes you and two of your allies to lose 20 Hit Points each, using this Skill would have you lose 15 Hit Points, then 15 Hit Points, and finally another 15 Hit Points). If your Divination spell has no forced rerolls remaining after you use this Skill, you may choose one option: recover 10 Mind Points; or recover 5 Hit Points.",
-    book: "Rework 2023",
+    book: "Playtest 10-06-24",
   },
   {
     name:"Punishing Style",
@@ -1290,7 +1312,7 @@ const heroicSkillsData = [
     description: "When you perform the Guard action, if you did not perform the Guard action on your previous turn during this scene, choose one option among ranged attacks and offensive spells (r). You gain the following benefits until the start of your next turn:",
     description2: "You may use the Counterattack Skill even when the Result of the enemy's Accuracy Check is an odd number, and it also applies against what you have chosen.",
     description3: "When you perform a free attack with Counterattack, if the triggering attack or spell hit you, you deal 5 extra damage.",
-    book: "Rework 2023",
+    book: "Playtest 09-09-24",
   },
   {
     name:"Ranger Style",
@@ -1298,7 +1320,7 @@ const heroicSkillsData = [
     other: "have acquired the Resourceful Skill (see Wayfarer)",
     description: "At the start of a conflict scene, you may spend 20 Mind Points to reveal you set traps in the surrounding area and choose a status effect among dazed, shaken, slow, and weak: if you do, every enemy present on the scene suffers the chosen status effect, then every enemy present on the scene whose current Insight die size is equal to or lower than yours loses an amount of Hit Points and Mind Points equal to 【your Skill Level in Resourceful, multiplied by 5】. These amounts increase by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher.",
     description2: "Additionally, your attacks with bows deal extra damage equal to 【1 + your Skill Level in Resourceful】 as long as you have no martial armor equipped.",
-    book: "Rework 2023",
+    book: "Playtest 08-04-24",
   },
   {
     name:"Reaper Style",
@@ -1306,7 +1328,7 @@ const heroicSkillsData = [
     other: "have acquired the High Speed Skill (see Rogue) and/or the Stolen Time Skill (see Entropist)",
     description: "You gain a +5 bonus to your Accuracy Checks and Magic Checks for attacks and offensive spells (r) that include one or more enemies in Crisis among the targets.",
     description2: "After you reduce one or more enemies to 0 Hit Points, if at least one of them is defeated this way, you recover from all status effects and may choose one option: perform a free attack with a weapon you have equipped, and that attack deals 5 extra damage; or immediately perform the Spell action for free, casting an offensive spell (r) with a total MP cost equal to or lower than 10 without paying its MP cost. This attack or spell must target a single enemy; once you use this Skill during a conflict, you may not use it again until the beginning of your next turn.",
-    book: "Rework 2023",
+    book: "Playtest 10-06-24",
   },
   {
     name:"Scorpion Tail Style",
@@ -1314,7 +1336,7 @@ const heroicSkillsData = [
     other: "have a Dexterity base die size of d10 or higher",
     description: "Your attacks with weapons belonging to the flail Category may target flying creatures and deal 5 extra damage as long as it is not your turn.",
     description2: "After a creature you can see performs a ranged attack, you may spend an amount of Mind Points equal to 【5 + the total Result of their Accuracy Check】 in order to have the attack fail automatically against all targets. You can only use this Skill if you have a weapon belonging to the flail Category equipped, and it has no effect if the Accuracy Check was a critical success.",
-    book: "Rework 2023",
+    book: "Playtest 03-12-23",
   },
   {
     name:"Skyspear Style",
@@ -1325,7 +1347,7 @@ const heroicSkillsData = [
     description3: "You become one with the speed and strength of wind. Until this spell ends, your melee attacks can target creatures that can only be targeted by ranged attacks, and no other creature present on the scene is able to see you.",
     description4: "On your turn, if you are under the effects of this spell and able to perform the Spell action, you must use your first available action to perform the Spell action and cast the Soaring Strike spell, ignoring its MP cost. If you do and the weapon used belongs to the spear Category, the free attack granted by Soaring Strike gains multi (2) and deals another 10 extra damage. This spell ends after the free attack is resolved.",
     description5: "You may only cast this spell if you have a spear weapon equipped, and only if you have also learned the Soaring Strike spell.",
-    book: "Rework 2023",
+    book: "Playtest 07-03-24",
   },
   {
     name:"Thaumaturge Style",
@@ -1333,7 +1355,7 @@ const heroicSkillsData = [
     other: "have acquired the Healing Power Skill, and must have learned the Cleanse and/or Heal spells (see Spiritist)",
     description: "As long as you have one or more brawling weapons equipped, you may treat them as also belonging to the arcane Category for the purpose of Skills and effects that require it.",
     description2: "You may use an action to perform a free attack with an arcane weapon you have equipped; this attack must target a single enemy. If the attack is successful, treat your High Roll (HR) as 0 when determining damage dealt by it; after the attack has been resolved, if it was successful, you may immediately perform the Spell action for free, casting an offensive spell (r) with a total MP cost equal to or lower than 10 without paying its MP cost. This spell must target a single enemy.",
-    book: "Rework 2023",
+    book: "Playtest 08-09-23",
   },
   {
     name: "Vortex Warrior Style",
@@ -1341,7 +1363,7 @@ const heroicSkillsData = [
     other: "have a Dexterity base die size of d10 or higher, and/or a Might base die size of d10 or higher",
     description: "When you perform the Attack action with a melee weapon that belongs to the heavy or sword Category, if you have no other weapon equipped, you may perform two separate attacks instead of one. If you do, both attacks follow the rules for two-weapon fighting: each attack loses the multi property and cannot gain it, and you treat the High Roll of each Accuracy Check as being equal to 0 when determining damage. Additionally, both attacks performed this way must target the same creature; if the first attack is successful, the second attack's Accuracy Check will trigger a critical success if both dice show the same number (and the Check is not a fumble).",
     description2: "Note that this Heroic Skill does not stack with a custom weapon's quick customization (you will still only perform two attacks).",
-    book: "Rework 2023",
+    book: "Playtest 08-11-23",
   }
 
 
