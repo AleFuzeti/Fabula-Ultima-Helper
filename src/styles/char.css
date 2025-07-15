@@ -1,0 +1,92 @@
+.character-card {
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 8px  0 0;
+  border: 1px solid #5a9b8e;
+}
+
+.character-name{
+  background: linear-gradient(90deg, rgb(43, 75, 66) 0%, rgb(133, 195, 177) 100%);
+  color: white;
+  padding: 5px 12px;
+}
+
+.level-badge {
+  background-color: white;
+  max-width: 15%;
+  color: #333;
+  border: 1px solid #5a9b8e;
+  border-radius: 0 7px  0 0;
+  padding: 5px 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  background-color: #f8f8f8;
+}
+
+.character-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 16px;
+}
+
+.character-info {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  align-items: stretch;
+}
+
+.traits-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  background-color: rgb(43, 75, 66);
+  color: white;
+  padding: 8px 6px;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px 0 0 4px;
+  min-height: 100px;
+}
+
+.traits-content {
+  flex: 1;
+  background-color: white;
+  border: 2px solid #5a9b8e;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.trait-item {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.trait-label {
+  font-weight: bold;
+}
