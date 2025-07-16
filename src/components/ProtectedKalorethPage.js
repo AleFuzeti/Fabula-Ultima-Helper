@@ -8,7 +8,7 @@ const ProtectedKalorethPage = () => {
   const [error, setError] = useState("");
 
   // Senha configurada - você pode alterar aqui
-  const correctPassword = "teste";
+  const correctPassword = "lennard";
 
   const handleSubmit = (e) => {
     e.preventDefault();

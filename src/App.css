@@ -37,16 +37,23 @@ body {
 
 .content {
   flex: 1;
-  padding: 20px;
+}
+
+.image-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
 }
 
 .image-links img {
-  width:25%
+  width:95%
 }
 
 @media (max-width: 768px) {
-  .image-links img {
-    width:50%
+  .image-links {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -60,6 +67,16 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+.image-links img {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+
+}
+.image-links img:hover {
+  transform: scale(1.1);
+  
+  z-index: 1;
+}
 
 .image img {
   height: 200px;

@@ -25,28 +25,28 @@ function Content() {
           <Link to="/equipment">
             <img
               className="image"
-              src={`${process.env.PUBLIC_URL}/assets/equipment.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/equipment.png`}
               alt="Equipment"
               style={{height: "auto" }} // Ajuste de tamanho
             />
           </Link>
           <Link to="/heroic-skills">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/heroic_skills.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/heroic_skills.png`}
               alt="Heroic Skills"
               style={{height: "auto" }} // Ajuste de tamanho
             />
           </Link>
           <Link to="/artifacts">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/artifacts.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/artifacts.png`}
               alt="Artifacts"
               style={{height: "auto" }} // Ajuste de tamanho
             />
           </Link>
           <Link to="/kaloreth">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/artifacts.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/kaloreth.png`}
               alt="Kaloreth"
               style={{height: "auto" }} // Ajuste de tamanho
             />
