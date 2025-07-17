@@ -1151,7 +1151,7 @@ const heroicSkillsData = [
     book: "Playtest 05-12-24",
   },
   {
-    name:"Agile Defender Style V2",
+    name:"Agile Defender Style V3",
     requirement: ["All Classes"],
     other: "have Skill Level 2 or higher in Dodge (see Rogue), and must have a Dexterity base die size of d10 or higher.",
     description: "As long as you have no shields and no martial armor equipped, you gain all of the following benefits:",
