@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Fabula-Ultima-Helper/static/css/main.947d9e76.css",
-    "main.js": "/Fabula-Ultima-Helper/static/js/main.fabf3a9f.js",
+    "main.css": "/Fabula-Ultima-Helper/static/css/main.2a1d175c.css",
+    "main.js": "/Fabula-Ultima-Helper/static/js/main.2c3264c4.js",
     "static/js/453.6ad9cc89.chunk.js": "/Fabula-Ultima-Helper/static/js/453.6ad9cc89.chunk.js",
     "index.html": "/Fabula-Ultima-Helper/index.html",
-    "main.947d9e76.css.map": "/Fabula-Ultima-Helper/static/css/main.947d9e76.css.map",
-    "main.fabf3a9f.js.map": "/Fabula-Ultima-Helper/static/js/main.fabf3a9f.js.map",
+    "main.2a1d175c.css.map": "/Fabula-Ultima-Helper/static/css/main.2a1d175c.css.map",
+    "main.2c3264c4.js.map": "/Fabula-Ultima-Helper/static/js/main.2c3264c4.js.map",
     "453.6ad9cc89.chunk.js.map": "/Fabula-Ultima-Helper/static/js/453.6ad9cc89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.947d9e76.css",
-    "static/js/main.fabf3a9f.js"
+    "static/css/main.2a1d175c.css",
+    "static/js/main.2c3264c4.js"
   ]
 }
