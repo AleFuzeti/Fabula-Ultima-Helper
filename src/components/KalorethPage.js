@@ -1,9 +1,19 @@
 import React, { useState } from "react";
 import kalorethChars from "../data/kalorethChars";
+import diarioLeran from "../data/diarioLeran";
 import "../styles/char.css";
+import "../styles/diario.css";
 
 const KalorethPage = () => {
   const [selected, setSelected] = useState("personagens");
+  const [expandedEntries, setExpandedEntries] = useState({});
+
+  const toggleEntry = (entryId) => {
+    setExpandedEntries(prev => ({
+      ...prev,
+      [entryId]: !prev[entryId]
+    }));
+  };
 
   const renderContent = () => {
     if (selected === "personagens") {
@@ -37,7 +47,34 @@ const KalorethPage = () => {
         </div>
       ));
     } else if (selected === "diario") {
-      return <div>Diário de Leran (em breve)</div>;
+      return (
+        <div className="diario-container">
+          {diarioLeran.map((entrada, index) => (
+            <div className="diario-entry" key={entrada.id}>
+              <div 
+                className="diario-header" 
+                onClick={() => toggleEntry(entrada.id)}
+                style={{ cursor: 'pointer' }}
+              >
+                <div className="diario-titulo">
+                  {entrada.titulo}
+                  <span className="expand-icon">
+                    {expandedEntries[entrada.id] ? '▼' : '▶'}
+                  </span>
+                </div>
+                <div className="diario-data">{entrada.data}</div>
+              </div>
+              {expandedEntries[entrada.id] && (
+                <div className="diario-conteudo">
+                  {entrada.conteudo.split('\n\n').map((paragrafo, pIndex) => (
+                    <p key={pIndex}>{paragrafo}</p>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      );
     } else if (selected === "mapa") {
       return <div>Mapa De Kaloreth (em breve)</div>;
     }

@@ -45,6 +45,7 @@ body {
   gap: 16px;
   justify-items: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .image-links img {

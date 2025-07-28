@@ -91,3 +91,72 @@
 .trait-label {
   font-weight: bold;
 }
+
+/* Estilos para o mini-header de navegação */
+.mini-header {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #5a9b8e;
+}
+
+.mini-header button {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  background-color: white;
+  color: #5a9b8e;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-right: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.mini-header button:last-child {
+  border-right: none;
+}
+
+.mini-header button:hover {
+  background-color: #f0f8f6;
+  color: #4a8275;
+}
+
+.mini-header button.active {
+  background: linear-gradient(90deg, rgb(43, 75, 66) 0%, rgb(133, 195, 177) 100%);
+  color: white;
+}
+
+.mini-header button.active:hover {
+  background: linear-gradient(90deg, rgb(38, 67, 59) 0%, rgb(120, 180, 162) 100%);
+  color: white;
+}
+
+/* Efeito de clique */
+.mini-header button:active {
+  transform: translateY(1px);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .mini-header {
+    margin: 15px 10px;
+    flex-direction: column;
+  }
+  
+  .mini-header button {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 15px;
+  }
+  
+  .mini-header button:last-child {
+    border-bottom: none;
+  }
+}
