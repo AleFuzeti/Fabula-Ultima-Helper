@@ -26,10 +26,18 @@ const kalorethChars = [
   {
     name: "Aryll",
     image: "https://raw.githubusercontent.com/AleFuzeti/Fabula-Ultima-Helper/refs/heads/main/public/assets/Char/aryll_portrait.png",
-    identity: "MYSTERIOUS AND POWERFUL MAGE",
-    theme: "FEAR",
+    identity: "OATHBREAKER MAGE OF AN ANCIENT BLOODLINE",
+    theme: "DOUBT",
     origin: "YSZKASTEEL",
     pronouns: "HE",
+  },
+  {
+    name: "Iris",
+    image: "https://raw.githubusercontent.com/AleFuzeti/Fabula-Ultima-Helper/refs/heads/main/public/assets/Char/iris_portrait.png",
+    identity: "MYSTERIOUS AND POWERFUL WARRIOR",
+    theme: "HOPE",
+    origin: "UNKNOWN",
+    pronouns: "SHE",
   },
 ];
 

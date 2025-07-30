@@ -15,15 +15,18 @@ Mesclando o melhor da tecnologia com o poder da magia, desafio os limites impost
         data: "Capítulo 1: Os Primeiros Passos",
         conteudo: `Hoje marca um marco na minha jornada. Eu, Aryll e Nassima nos conhecemos de um jeito meio... inusitado. Acordamos nas catacumbas da Igreja dos Quatro Herois, presos por tentar roubar um pergaminho repleto de segredos que desmascaram a verdadeira natureza dessa igreja hipócrita.
 
+[IMG:players/nassima.png:Nassima:large]
+        
+[IMG:players/aryll.png:Aryll:medium]
+
 Pra fugir, tivemos que acabar com alguns constructos. Derrotamos eles e vimos um jovem tentando escapar, não tive outra escolha a não ser atirar em sua perna. Foi uma decisão heroica pra integridade da missão. Interrogamos o rapaz e descobrimos algumas informações.
- 
+
 Enquanto o caos se desenrolava, pude observar melhor os meus companheiros. Nassima tem uma aura vibrante e temperamento explosivo, é tão intensa quanto sua colorida. Já o Aryll é um homem magro, alto, de pele pálida e com seis dedos em cada mão – ele é sério e tem um ar macabro marcado por tragédias: sua terra, Yszkasteel, foi dizimada pela igreja. Eles parecem ser gente boa, gostei deles.
 
 Conversando mais, descobri que não sou o único que sofreu nas mãos da igreja. A terra do Aryll, Yszkasteel, foi completamente destruída por eles. O circo voador da Nassima (que era um cavalo flutuante) também foi exterminado, junto com todos os cavalos. Eu compartilhei com eles um pouco do meu próprio passado em Acigam. Acho que estou começando a confiar neles!
  
 Conseguimos invadir a igreja disfarçados e pegamos o pergaminho! Nós fugimos e chegamos à cidade de Bonaj. Sei que a luta é difícil, e não faço ideia do que o futuro nos reserva, mas pelo menos agora eu tenho aliados. Amigos. E isso faz toda a diferença.`
-    
-},
+    },
     {
         id: 3,
         titulo: "2 - Bonaj",
@@ -54,13 +57,14 @@ E o que a gente fez? Entramos no quadro, é claro!
 
 Foi como atravessar um portal mágico – de repente, estávamos em um lugar incrível, com campos vastos e castelos majestosos no horizonte. 
 [IMG:locals/bennochio.png:Vista do Monastério de Benocchio:large]
+
+
 Foi aí que um monge apareceu e nos explicou onde estávamos: o Monastério de Benocchio. Ele nos levou até Cosmo, o chefe do lugar, que, para nossa surpresa, era um senhor baixinho, simpático e cheio de energia.
 [IMG:npcs/cosmos.png:Cosmos]
 
 Cosmo nos contou que esse monastério era uma biblioteca mágica conectada a vários lugares pelo mundo. Uma fonte gigantesca de conhecimento! Ele parecia bem animado com isso, mas sabe o que realmente me chamou atenção? Ele mencionou um tal de spaghetti. Parece ser uma comida incrível! Não sei o que é, mas estou muito interessado.
 
 Lá dentro, conhecemos Reeva, a bibliotecária. Super simpática! Ela nos contou que Cosmo nunca pode sair do monastério e que a igreja tem vindo bastante para cá ultimamente. Muito suspeito! Por que a igreja estaria tão interessada nesse lugar? E o pior: Cosmo, um mago superpoderoso, parece estar envolvido nisso. Algo não está certo, e nós tínhamos que descobrir o que era.
-[IMG:npcs/reeva.png:Reeva]
 
 Então, fizemos o que qualquer grupo de aventureiros curiosos faria: nos infiltramos na seção proibida da biblioteca. E valeu a pena! Encontramos artefatos incríveis, incluindo uma pena capaz de reviver alguém e um livro que contém todo o conhecimento conhecido. Incrível, né? Bom, a parte complicada veio logo depois.
 
@@ -519,11 +523,11 @@ Conversamos com eles
 vamos fugir pra local seguro... orpheus vai para.....
 `
     },
-{
-    id: 11,
-    titulo: "10 - CAPÍTULO 5 EM ANDAMENTO",
-    data: "Capítulo 5: O Cume dos Heróis",
-    conteudo: `
+    {
+        id: 11,
+        titulo: "10 - CAPÍTULO 5 EM ANDAMENTO",
+        data: "Capítulo 5: O Cume dos Heróis",
+        conteudo: `
    praia 
 encontramos iris
 herald afogando
