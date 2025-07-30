@@ -22,7 +22,8 @@ Enquanto o caos se desenrolava, pude observar melhor os meus companheiros. Nassi
 Conversando mais, descobri que não sou o único que sofreu nas mãos da igreja. A terra do Aryll, Yszkasteel, foi completamente destruída por eles. O circo voador da Nassima (que era um cavalo flutuante) também foi exterminado, junto com todos os cavalos. Eu compartilhei com eles um pouco do meu próprio passado em Acigam. Acho que estou começando a confiar neles!
  
 Conseguimos invadir a igreja disfarçados e pegamos o pergaminho! Nós fugimos e chegamos à cidade de Bonaj. Sei que a luta é difícil, e não faço ideia do que o futuro nos reserva, mas pelo menos agora eu tenho aliados. Amigos. E isso faz toda a diferença.`
-    },
+    
+},
     {
         id: 3,
         titulo: "2 - Bonaj",
@@ -51,11 +52,15 @@ Encontramos uma caverna misteriosa e, dentro dela, uma parede invisível! Sim, i
 
 E o que a gente fez? Entramos no quadro, é claro!
 
-Foi como atravessar um portal mágico – de repente, estávamos em um lugar incrível, com campos vastos e castelos majestosos no horizonte. Foi aí que um monge apareceu e nos explicou onde estávamos: o Monastério de Benocchio. Ele nos levou até Cosmo, o chefe do lugar, que, para nossa surpresa, era um senhor baixinho, simpático e cheio de energia.
+Foi como atravessar um portal mágico – de repente, estávamos em um lugar incrível, com campos vastos e castelos majestosos no horizonte. 
+[IMG:locals/bennochio.png:Vista do Monastério de Benocchio:large]
+Foi aí que um monge apareceu e nos explicou onde estávamos: o Monastério de Benocchio. Ele nos levou até Cosmo, o chefe do lugar, que, para nossa surpresa, era um senhor baixinho, simpático e cheio de energia.
+[IMG:npcs/cosmos.png:Cosmos]
 
 Cosmo nos contou que esse monastério era uma biblioteca mágica conectada a vários lugares pelo mundo. Uma fonte gigantesca de conhecimento! Ele parecia bem animado com isso, mas sabe o que realmente me chamou atenção? Ele mencionou um tal de spaghetti. Parece ser uma comida incrível! Não sei o que é, mas estou muito interessado.
 
 Lá dentro, conhecemos Reeva, a bibliotecária. Super simpática! Ela nos contou que Cosmo nunca pode sair do monastério e que a igreja tem vindo bastante para cá ultimamente. Muito suspeito! Por que a igreja estaria tão interessada nesse lugar? E o pior: Cosmo, um mago superpoderoso, parece estar envolvido nisso. Algo não está certo, e nós tínhamos que descobrir o que era.
+[IMG:npcs/reeva.png:Reeva]
 
 Então, fizemos o que qualquer grupo de aventureiros curiosos faria: nos infiltramos na seção proibida da biblioteca. E valeu a pena! Encontramos artefatos incríveis, incluindo uma pena capaz de reviver alguém e um livro que contém todo o conhecimento conhecido. Incrível, né? Bom, a parte complicada veio logo depois.
 
@@ -274,7 +279,30 @@ Agora… vamos enfrentar meu passado.
         titulo: "9 - CAPITULO 4 EM ANDAMENTO",
         data: "Capítulo 4: Retorno às Cinzas",
         conteudo: `
-Endirr, era capital acigam.
+"A entrada"
+Pela manhã fui encontrar um membro da Xeque Mate, e consegui um barco. Enquanto isso, o resto do grupo foi aprender com a Deusa como esconder a Mana, para não ser detectados em Aacigam.
+
+Inventamos um disfarce: entrariamos em Aacigam como mercenários interessados na compra e venda de armas tecnologicas.
+
+A viagem foi tranquila (tirando um pouco de enjoo denovo). ao chegarmos perto dos muros, observamos que estavam fazendo vistorias nos barcos, detectando e barrando todo tipo de magia.
+
+Ficamos desesperados pois a Nassima e Aryll gritam "magia" por onde passam e eu sou facilmente identificado como foragido de Aacigam. O que fizemos foi eu, Nassima e Aryll entrarmos na bolsa dimensional, enquanto Orpheus e Drax fingiam ser os mercenários.
+Nassima e Aryll tiveram que fazer um ritual muito difícil para esconder a mana da bolsa, mas conseguimos!! E assim, entramos na cidade.
+
+Adentramos Endirr, que era a capital de Aacigam.
+
+
+
+
+
+
+
+
+
+
+
+
+
 Apelo tecnologico enorme.
 Tudo cinza, pouco visível. Algumas construções enormes, metal sem vida. Mechas.
 Coisas voando, trem.

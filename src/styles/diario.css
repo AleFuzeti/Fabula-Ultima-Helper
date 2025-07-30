@@ -72,6 +72,68 @@
   margin-bottom: 15px;
 }
 
+/* Estilos para imagens no diário */
+.diario-conteudo img,
+.diary-image {
+  width: auto;
+  max-width: 400px;
+  max-height: 300px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 2px solid #5a9b8e;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+}
+
+.diario-conteudo img:hover,
+.diary-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Diferentes tamanhos de imagem */
+.diary-image.small {
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.diary-image.medium {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.diary-image.large {
+  max-width: 600px;
+  max-height: 450px;
+}
+
+/* Responsividade para imagens */
+@media (max-width: 768px) {
+  .diario-conteudo img,
+  .diary-image {
+    max-width: 280px;
+    max-height: 210px;
+  }
+  
+  .diary-image.small {
+    max-width: 150px;
+    max-height: 110px;
+  }
+  
+  .diary-image.medium {
+    max-width: 280px;
+    max-height: 210px;
+  }
+  
+  .diary-image.large {
+    max-width: 320px;
+    max-height: 240px;
+  }
+}
+
 /* Animação para quando o conteúdo aparece */
 @keyframes slideDown {
   from {

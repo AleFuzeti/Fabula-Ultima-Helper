@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import kalorethChars from "../data/kalorethChars";
 import diarioLeran from "../data/diarioLeran";
+import { getDiaryImageUrl } from "../utils/imageUtils";
 import "../styles/char.css";
 import "../styles/diario.css";
 
@@ -13,6 +14,15 @@ const KalorethPage = () => {
       ...prev,
       [entryId]: !prev[entryId]
     }));
+  };
+
+  const processContent = (content) => {
+    // Processa marcadores de imagem [IMG:nome_arquivo.jpg:alt_text] ou [IMG:nome_arquivo.jpg:alt_text:size]
+    return content.replace(/\[IMG:([^:]+):([^:\]]+)(?::([^:\]]+))?\]/g, (match, fileName, altText, size) => {
+      const imageUrl = getDiaryImageUrl(fileName);
+      const sizeClass = size ? `diary-image ${size}` : 'diary-image';
+      return `<img src="${imageUrl}" alt="${altText}" class="${sizeClass}" />`;
+    });
   };
 
   const renderContent = () => {
@@ -66,9 +76,19 @@ const KalorethPage = () => {
               </div>
               {expandedEntries[entrada.id] && (
                 <div className="diario-conteudo">
-                  {entrada.conteudo.split('\n\n').map((paragrafo, pIndex) => (
-                    <p key={pIndex}>{paragrafo}</p>
-                  ))}
+                  {entrada.conteudo.split('\n\n').map((paragrafo, pIndex) => {
+                    const processedContent = processContent(paragrafo);
+                    // Verifica se o parágrafo contém uma tag img
+                    if (processedContent.includes('<img')) {
+                      return (
+                        <div 
+                          key={pIndex} 
+                          dangerouslySetInnerHTML={{ __html: processedContent }}
+                        />
+                      );
+                    }
+                    return <p key={pIndex}>{paragrafo}</p>;
+                  })}
                 </div>
               )}
             </div>
