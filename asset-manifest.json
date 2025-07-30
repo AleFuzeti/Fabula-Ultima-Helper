@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Fabula-Ultima-Helper/static/css/main.05a5e61a.css",
-    "main.js": "/Fabula-Ultima-Helper/static/js/main.5774517a.js",
+    "main.js": "/Fabula-Ultima-Helper/static/js/main.1536d9b1.js",
     "static/js/453.6ad9cc89.chunk.js": "/Fabula-Ultima-Helper/static/js/453.6ad9cc89.chunk.js",
     "index.html": "/Fabula-Ultima-Helper/index.html",
     "main.05a5e61a.css.map": "/Fabula-Ultima-Helper/static/css/main.05a5e61a.css.map",
-    "main.5774517a.js.map": "/Fabula-Ultima-Helper/static/js/main.5774517a.js.map",
+    "main.1536d9b1.js.map": "/Fabula-Ultima-Helper/static/js/main.1536d9b1.js.map",
     "453.6ad9cc89.chunk.js.map": "/Fabula-Ultima-Helper/static/js/453.6ad9cc89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05a5e61a.css",
-    "static/js/main.5774517a.js"
+    "static/js/main.1536d9b1.js"
   ]
 }
